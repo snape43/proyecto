@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 102)!important;
+    color: white!important;
+}
+
+.pagewrap {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main_content {
+    flex-grow: 1;
+    padding-bottom: 100px;
+    padding-top: 80px;
+}
+
+.navbar.navbar-default {
+    background: darkslategrey;
+    padding: 15px;
+    border: none;
+}
+
+nav img {
+    width: 13%;
+}
+
+.navbar-header .navbar-brand {
+    padding: 0;
+    float: none;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 500px!important;
+}
+
+.genders {
+    padding-top: 80px;
+}
+
+.person {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 80%;
+    height: auto;
+    opacity: 0.7;
+}
+
+.person:hover {
+    border-color: #f1f1f1;
+}
+
+.link_history {
+    font-size: 22px;
+    color: blue;
+}
+
+.responsive_div {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+.img_responsive {
+    width: 100%;
+    height: auto;
+}
+
+.map_responsive {
+    width: 100%;
+    height: 500px;
+}
+
+.video_responsive {
+    width: 100%;
+    height: auto;
+}
+
+ul li {
+    list-style: none;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgb(255, 255, 98);
+    transition: 0.3s;
+    width: 100%;
+    max-width: 600px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 98);
+}
+
+.card_container {
+    padding: 2px 16px;
+}
+
+audio {
+    width: 100%;
+    max-width: 600px;
+}
+
+.concerts .caption {
+    padding: 15px;
+    text-align: center;
+}
+
+footer {
+    background: darkslategrey;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+.responsive .gallery {
+    height: auto;
+}
+
+.contact_form {
+    padding: 25px;
+    padding-bottom: 50px;
+    border: solid 1px blueviolet;
+    border-radius: 5px;
+    box-shadow: 5px 4px 40px 4px rgba(63, 10, 115, 0.83) inset;
+    -webkit-box-shadow: 5px 4px 40px 4px rgba(63, 10, 115, 0.83) inset;
+    -moz-box-shadow: 5px 4px 40px 4px rgba(63, 10, 115, 0.83) inset;
+}
+
+.current_date span {
+    font-size: xx-large;
+    padding-left: 12px;
+}
+
+.img_form_content img {
+    display: initial!important;
+}
+
+.card.personal-card p {
+    font-size: x-large;
+}
+
+.card.personal-card h4 {
+    font-size: xx-large;
+}
+
+.card.personal-card .last_p {
+    margin: 0 0 10px;
+    font-size: medium;
+}
+
+.card.personal-card .middle_p {
+    margin: 0;
+    font-size: medium;
+}
+
+.card.personal-card ul {
+    list-style: none;
+    margin: 0;
+    padding: 12px;
+    font-size: small;
+    font-family: cursive;
+}
+
+.card.personal-card li {
+    margin: 0;
+    padding: 0;
+}
+
+footer .footer_icons a {
+    font-size: xx-large;
+    color: white;
+    padding: 4px;
+}
+
+footer .footer_links i {
+    padding: 8px;
+    font-size: medium;
+}
+
+footer .footer_icons a:first-child:hover {
+    color: white;
+    background-color: blue;
+}
+
+footer .footer_icons a:last-child:hover {
+    color: white;
+    background-color: #e95950;
+}
+
+footer .footer_icons a:nth-child(2):hover {
+    color: white;
+    background-color: #0077b5;
+}
+
+@media(min-width: 768px) {
+    .navbar-header .navbar-brand {
+        float: left;
+    }
+    nav img {
+        width: 16%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 33%;
+        margin: 6px 0;
+    }
+}
+
+@media (min-width:756px) {
+    .carousel-inner img {
+        height: auto!important;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+@media (min-width:501px) {
+    .responsive .gallery {
+        height: 270px;
+    }
+    .responsive .gallery img {
+        max-height: auto;
+        height: 130px;
+    }
+}
+
+@media (min-width:1200px) {
+    .responsive .gallery {
+        height: 280px;
+    }
+    .responsive .gallery img {
+        max-height: auto;
+        height: 150px;
+    }
+}
